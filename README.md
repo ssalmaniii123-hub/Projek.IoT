@@ -167,3 +167,4 @@ Contoh request JSON:
 Fallback jika server tidak tersambung: simpan payload sementara di memori/EEPROM/SD card, lalu kirim ulang saat `HTTPClient` mendapat response `201` dari server.
 
 Status valid yang diterima backend fleksibel. Nilai seperti `accepted`, `valid`, `hadir`, atau `diterima` dinormalisasi menjadi `diterima`. Nilai seperti `rejected`, `invalid`, `gagal`, atau `ditolak` dinormalisasi menjadi `ditolak`.
+
